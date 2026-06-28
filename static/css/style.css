@@ -620,20 +620,18 @@ h4{
         font-size:1rem;
     }
 
-    .hero-buttons{
+    .hero-actions{
         display:flex;
         flex-direction:column;
-        gap:16px;
         align-items:center;
+        gap:16px;
+        width:100%;
     }
 
-    .btn-cta{
+    .btn-cta,
+    .btn-secondary{
         width:100%;
         justify-content:center;
-    }
-
-    .link-action{
-        margin-left:0;
     }
 
     .floating-card{
@@ -647,13 +645,17 @@ h4{
         padding:60px 20px;
     }
 
+    .features h2{
+        font-size:2.2rem;
+    }
+
     .feature-grid{
         display:grid;
         grid-template-columns:1fr;
         gap:24px;
     }
 
-    /* Tech */
+    /* Tech Stack */
 
     .tech-stack{
         width:100%;
@@ -662,13 +664,17 @@ h4{
         border-radius:25px;
     }
 
+    .tech-stack h2{
+        font-size:2.2rem;
+    }
+
     .tech-grid{
         display:grid;
         grid-template-columns:1fr;
         gap:20px;
     }
 
-    /* Workflow */
+    /* Teacher Journey */
 
     .teacher-flow{
         width:100%;
@@ -709,10 +715,11 @@ h4{
 
     .flow-image img{
         width:100%;
+        height:auto;
         display:block;
     }
 
-    /* Purple CTA */
+    /* CTA */
 
     .purple-section{
         width:100%;
@@ -721,8 +728,13 @@ h4{
         border-radius:25px;
     }
 
+    .purple-section h2{
+        font-size:2rem;
+    }
+
     .btn-white{
         width:100%;
+        display:block;
         text-align:center;
     }
 
@@ -736,12 +748,36 @@ h4{
     .footer-grid{
         display:grid;
         grid-template-columns:1fr;
-        gap:30px;
+        gap:35px;
         text-align:center;
+    }
+
+    .footer-links{
+        width:100%;
+    }
+
+    .footer-links ul{
+        padding:0;
+        margin:0;
+        list-style:none;
+    }
+
+    .footer-links li{
+        margin-bottom:12px;
+    }
+
+    .footer-brand{
+        text-align:center;
+    }
+
+    .footer-brand p{
+        max-width:100%;
+        margin:auto;
     }
 
     img{
         max-width:100%;
         height:auto;
+        display:block;
     }
 }
